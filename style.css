@@ -1,0 +1,221 @@
+/* Global */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container, .main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header + Navbar + Hero + Footer */
+
+header,
+footer {
+    background-color: #1f2937;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    margin: auto;
+}
+
+.navbar h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.navbar a:hover {
+    color: peru;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-text button {
+    width: 25%;
+    padding: 5px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 5px;
+    font-size: 15px;
+    border-color: #3882f6;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    background-color: gray;
+    color: #E5E7EB;
+    font-size: 18px;
+    text-align: center;
+}
+
+.footer-text {
+    padding-bottom: 40px;
+    padding-top: 40px;
+    text-align: center;
+    color: #E5E7EB;
+}
+
+/* Info Section */
+
+.info-container {
+    padding-bottom: 80px;
+}
+
+.box-container {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 75px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 15px;
+}
+
+.info-container h2 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+/* Quote Section */
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote-container{
+    background-color: #E5E7EB;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.quote-container p {
+    padding-top: 80px;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-container .quoteman-mcgee {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 24px;
+}
+
+/* Call to Action Section */
+
+.call-to-action {
+    background-color: white;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up-container {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 50px 150px;
+    border-radius: 10px;
+}
+
+.sign-up-text h2 {
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.sign-up-text p {
+    padding-top: 5px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.last-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    height: 40px;
+    width: 15%;
+    padding: 5px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 10px;
+    font-size: 15px;
+    outline-color: #f9faf8;
+    border-color: #f9faf8;
+}
